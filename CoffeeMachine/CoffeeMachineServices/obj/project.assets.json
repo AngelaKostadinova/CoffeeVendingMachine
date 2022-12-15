@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "CoffeeMachineDataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CoffeeMachineDomain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CoffeeMachineDataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoffeeMachineDataAccess.dll": {}
+        }
+      },
+      "CoffeeMachineDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CoffeeMachineDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoffeeMachineDomain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CoffeeMachineDataAccess/1.0.0": {
+      "type": "project",
+      "path": "../CoffeeMachineDataAccess/CoffeeMachineDataAccess.csproj",
+      "msbuildProject": "../CoffeeMachineDataAccess/CoffeeMachineDataAccess.csproj"
+    },
+    "CoffeeMachineDomain/1.0.0": {
+      "type": "project",
+      "path": "../CoffeeMachineDomain/CoffeeMachineDomain.csproj",
+      "msbuildProject": "../CoffeeMachineDomain/CoffeeMachineDomain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "CoffeeMachineDataAccess >= 1.0.0",
+      "CoffeeMachineDomain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Angela Kostadinova\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Angela Kostadinova\\Downloads\\CoffeeMachine\\CoffeeMachine\\CoffeeMachineServices\\CoffeeMachineServices.csproj",
+      "projectName": "CoffeeMachineServices",
+      "projectPath": "C:\\Users\\Angela Kostadinova\\Downloads\\CoffeeMachine\\CoffeeMachine\\CoffeeMachineServices\\CoffeeMachineServices.csproj",
+      "packagesPath": "C:\\Users\\Angela Kostadinova\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Angela Kostadinova\\Downloads\\CoffeeMachine\\CoffeeMachine\\CoffeeMachineServices\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Angela Kostadinova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Angela Kostadinova\\Downloads\\CoffeeMachine\\CoffeeMachine\\CoffeeMachineDataAccess\\CoffeeMachineDataAccess.csproj": {
+              "projectPath": "C:\\Users\\Angela Kostadinova\\Downloads\\CoffeeMachine\\CoffeeMachine\\CoffeeMachineDataAccess\\CoffeeMachineDataAccess.csproj"
+            },
+            "C:\\Users\\Angela Kostadinova\\Downloads\\CoffeeMachine\\CoffeeMachine\\CoffeeMachineDomain\\CoffeeMachineDomain.csproj": {
+              "projectPath": "C:\\Users\\Angela Kostadinova\\Downloads\\CoffeeMachine\\CoffeeMachine\\CoffeeMachineDomain\\CoffeeMachineDomain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
